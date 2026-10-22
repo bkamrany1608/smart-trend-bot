@@ -1,0 +1,24 @@
+name: smart_trend_bot
+description: Trend-pullback crypto auto trader (virtual / Binance futures testnet / live)
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  crypto: ^3.0.3
+  excel: ^4.0.3
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  fl_chart: ^0.68.0
+  flutter_foreground_task: ^8.10.0
+  share_plus: ^9.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/params.json
